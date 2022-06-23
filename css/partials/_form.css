@@ -1,0 +1,47 @@
+.form-styles {
+	padding: 3rem 0;
+}
+
+legend {
+	font-size: 2rem;
+	font-family: 'Zilla Slab', serif;
+	margin-bottom: 2rem;
+}
+
+.form-field {
+	margin-bottom: 1rem;
+}
+
+label {
+	display: inline-block;
+	font-family: 'Zilla Slab', serif;
+	margin-bottom: .5rem;
+}
+
+input {
+	display: block;
+	padding: .75rem;
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+
+}
+
+form button {
+	border-radius: 5px;
+	padding: .75rem 1.25rem;
+	border: 0;
+}
+
+form button:hover {
+	cursor: pointer;
+}
+
+form button[type="submit"] {
+	background-color: var(--color1);
+	color: #fff;
+}
